@@ -1,0 +1,96 @@
+html{
+	display: block;
+}
+body{
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	margin: 0;
+	background-color: #fefbe9;
+}
+
+/*colors
+
+#f6c453 -yellow
+#fefbe9 -off white
+#f0a04b -orange
+#183a1d -forest green
+#e1eedd - light green
+*/
+
+/*bar*/
+.bar{
+	padding-top: 1rem;
+	background-color: #183a1d;
+	color: #f0a04b;
+}
+.bar a{
+	color: #f0a04b;
+	text-decoration: none;
+}
+ul{
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+}
+li{
+	color: #f0a04b;
+	padding: 0.5rem 1.5rem;
+	margin-right: 1.5rem;
+	display: inline-block;
+}
+/*intro section*/
+.intro{
+	height: 30rem;
+	padding-top: 1rem;
+	background-image: url('resources/background.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.intro h1{
+	color: #f0a04b;
+	font-size: 2rem;
+	margin-top: 10rem;
+	padding: 2rem;
+	background-color: #e1eedd;
+}
+/*summary section*/
+#summary{
+	padding: 0 1rem;
+}
+#summary h2{
+	color: #f6c453;
+}
+#summary p{
+	color:#183a1d;
+}
+/*photos section*/
+.photos img{
+	width: 30%;
+	margin: 1.5%;
+}
+/*testimonial section*/
+#testimonial{
+	background-color:#e1eedd;
+	height: 10rem;
+	padding-top: 1rem;
+	padding: 0 1rem;
+	color: #183a1d;
+}
+#testimonial h1{
+	font-size: 2.5rem;
+	color: #183a1d;
+}
+/*meetup section*/
+#meetup{
+	margin-bottom: 2rem;
+}
+#meetup h1{
+	color: #183a1d;
+	text-align: center;
+}
+#meetup img{
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
